@@ -17,7 +17,7 @@ public class Main {
         JFrame win = new JFrame("计算器");
        Container con = win.getContentPane();
        JPanel pa = new JPanel();
-       pa.add(new JLabel("输入算式：")); 
+       pa.add(new JLabel("输入算式：")); git init
         final JTextField formulaText = new JTextField(num, 20);
         pa.add(formulaText);
         pa.add(new JLabel("="));
